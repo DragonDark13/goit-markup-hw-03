@@ -1,0 +1,190 @@
+
+:root {
+    --text-color1: #212121;
+    --black: #000;
+    --hover-color: #2196F3;
+    --gray-text-color: #757575;
+    --white-text-color: #fff;
+    --footer-color: #2F303A;
+    --footer_text-color: rgba(255, 255, 255, 0.6);
+    --filter_button_bg: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color1);
+    font-size: 14px;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--black);
+    display: flex;
+}
+
+.logo .part1 {
+    color: var(--hover-color);
+}
+
+.header_list {
+    list-style: none;
+}
+
+.header_menu a {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--text-color1);
+}
+
+.header_menu a:hover {
+    color: var(--hover-color);
+}
+
+.contacts a {
+    text-decoration: none;
+    color: var(--gray-text-color);
+    font-weight: 500;
+}
+
+.contacts a:hover {
+    color: var(--hover-color);
+}
+
+.bg_block__title {
+    font-weight: 900;
+    color: var(--white-text-color);
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.bg_block {
+    background: var(--footer-color);
+}
+
+.order_a_service {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-text-color);
+    background-color: var(--hover-color);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+}
+
+.features_list {
+    list-style: none;
+}
+
+.features_list .item_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features_list .item_description {
+    line-height: 1.71;
+    color: var(--gray-text-color);
+}
+
+.section h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.what_we_do_list {
+    list-style: none;
+
+}
+
+.our_team_list {
+    list-style: none;
+}
+
+.our_team_list .item_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+
+.our_team_list .item_description {
+    line-height: 1.18;
+    color: var(--gray-text-color);
+}
+
+footer {
+    background-color: var(--footer-color);
+}
+
+
+footer .logo .part2 {
+    color: var(--white-text-color);
+}
+
+.address {
+    line-height: 1.7;
+    color: var(--white-text-color);
+}
+
+.contact_info {
+    line-height: 1.7;
+    color: var(--footer_text-color);
+}
+
+.filter_list {
+    list-style: none;
+}
+
+.filter_list .filter_button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+    text-align: center;
+    background-color: var(--filter_button_bg);
+
+}
+
+.filter_list .filter_button:hover {
+    background-color: var(--hover-color);
+    color: var(--white-text-color);
+    cursor: pointer;
+
+}
+
+.portfolio_list {
+    list-style: none;
+}
+
+.portfolio_list .title_item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.portfolio_list .category {
+    color: var(--gray-text-color);
+    font-size: 16px;
+    line-height: 1.8;
+}
